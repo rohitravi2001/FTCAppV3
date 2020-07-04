@@ -10,7 +10,6 @@
 		00C91D9D74D43FF2C23C6513 /* Pods_FTCAppV3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8143B20F6B4D5AD26DFBDC /* Pods_FTCAppV3.framework */; };
 		2C72ABB624B04BC100A8AC15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C72ABB524B04BC100A8AC15 /* AppDelegate.swift */; };
 		2C72ABB824B04BC100A8AC15 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C72ABB724B04BC100A8AC15 /* SceneDelegate.swift */; };
-		2C72ABBA24B04BC100A8AC15 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C72ABB924B04BC100A8AC15 /* ContentView.swift */; };
 		2C72ABBC24B04BC300A8AC15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C72ABBB24B04BC300A8AC15 /* Assets.xcassets */; };
 		2C72ABBF24B04BC300A8AC15 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C72ABBE24B04BC300A8AC15 /* Preview Assets.xcassets */; };
 		2C72ABC224B04BC300A8AC15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C72ABC024B04BC300A8AC15 /* LaunchScreen.storyboard */; };
@@ -23,6 +22,7 @@
 		2C72ABEE24B051C000A8AC15 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C72ABED24B051C000A8AC15 /* ImagePicker.swift */; };
 		3BDBF176745A44B0067BDDB8 /* Pods_FTCAppV3Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3330FD27B03203576099BD57 /* Pods_FTCAppV3Tests.framework */; };
 		8A66C036F03CEE64254320A8 /* Pods_FTCAppV3_FTCAppV3UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E1036DDF173732DC49E0CF0 /* Pods_FTCAppV3_FTCAppV3UITests.framework */; };
+		AC702F5A24B05344004F85E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC702F5924B05344004F85E2 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,6 @@
 		2C72ABB224B04BC100A8AC15 /* FTCAppV3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FTCAppV3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C72ABB524B04BC100A8AC15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C72ABB724B04BC100A8AC15 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2C72ABB924B04BC100A8AC15 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2C72ABBB24B04BC300A8AC15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C72ABBE24B04BC300A8AC15 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2C72ABC124B04BC300A8AC15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -68,6 +67,7 @@
 		4D8143B20F6B4D5AD26DFBDC /* Pods_FTCAppV3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FTCAppV3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E1036DDF173732DC49E0CF0 /* Pods_FTCAppV3_FTCAppV3UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FTCAppV3_FTCAppV3UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FDA72F4CBDEC452242FFFCD /* Pods-FTCAppV3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FTCAppV3.release.xcconfig"; path = "Target Support Files/Pods-FTCAppV3/Pods-FTCAppV3.release.xcconfig"; sourceTree = "<group>"; };
+		AC702F5924B05344004F85E2 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BF3A7100E0C40055B47D2A9C /* Pods-FTCAppV3Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FTCAppV3Tests.debug.xcconfig"; path = "Target Support Files/Pods-FTCAppV3Tests/Pods-FTCAppV3Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E3459533EA1F7CC664A71AE2 /* Pods-FTCAppV3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FTCAppV3.debug.xcconfig"; path = "Target Support Files/Pods-FTCAppV3/Pods-FTCAppV3.debug.xcconfig"; sourceTree = "<group>"; };
 		E51E33FD03729A718AFCDBBF /* Pods-FTCAppV3-FTCAppV3UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FTCAppV3-FTCAppV3UITests.debug.xcconfig"; path = "Target Support Files/Pods-FTCAppV3-FTCAppV3UITests/Pods-FTCAppV3-FTCAppV3UITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -139,11 +139,11 @@
 				2C72ABB524B04BC100A8AC15 /* AppDelegate.swift */,
 				2C72ABB724B04BC100A8AC15 /* SceneDelegate.swift */,
 				2C72ABE524B0510500A8AC15 /* MessagePage.swift */,
-				2C72ABB924B04BC100A8AC15 /* ContentView.swift */,
 				2C72ABE724B0515300A8AC15 /* ListMessage.swift */,
 				2C72ABEB24B0519600A8AC15 /* DataFire.swift */,
 				2C72ABED24B051C000A8AC15 /* ImagePicker.swift */,
 				2C72ABE924B0518400A8AC15 /* IDData.swift */,
+				AC702F5924B05344004F85E2 /* ContentView.swift */,
 				2C72ABBB24B04BC300A8AC15 /* Assets.xcassets */,
 				2C72ABC024B04BC300A8AC15 /* LaunchScreen.storyboard */,
 				2C72ABC324B04BC300A8AC15 /* Info.plist */,
@@ -432,12 +432,12 @@
 			files = (
 				2C72ABEA24B0518400A8AC15 /* IDData.swift in Sources */,
 				2C72ABB624B04BC100A8AC15 /* AppDelegate.swift in Sources */,
+				AC702F5A24B05344004F85E2 /* ContentView.swift in Sources */,
 				2C72ABB824B04BC100A8AC15 /* SceneDelegate.swift in Sources */,
 				2C72ABE824B0515300A8AC15 /* ListMessage.swift in Sources */,
 				2C72ABE624B0510500A8AC15 /* MessagePage.swift in Sources */,
 				2C72ABEE24B051C000A8AC15 /* ImagePicker.swift in Sources */,
 				2C72ABEC24B0519600A8AC15 /* DataFire.swift in Sources */,
-				2C72ABBA24B04BC100A8AC15 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
