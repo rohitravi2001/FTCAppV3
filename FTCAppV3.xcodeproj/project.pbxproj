@@ -20,6 +20,7 @@
 		2C72ABEA24B0518400A8AC15 /* IDData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C72ABE924B0518400A8AC15 /* IDData.swift */; };
 		2C72ABEC24B0519600A8AC15 /* DataFire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C72ABEB24B0519600A8AC15 /* DataFire.swift */; };
 		2C72ABEE24B051C000A8AC15 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C72ABED24B051C000A8AC15 /* ImagePicker.swift */; };
+		2C72ABF024B055D700A8AC15 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2C72ABEF24B055D700A8AC15 /* GoogleService-Info.plist */; };
 		3BDBF176745A44B0067BDDB8 /* Pods_FTCAppV3Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3330FD27B03203576099BD57 /* Pods_FTCAppV3Tests.framework */; };
 		8A66C036F03CEE64254320A8 /* Pods_FTCAppV3_FTCAppV3UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E1036DDF173732DC49E0CF0 /* Pods_FTCAppV3_FTCAppV3UITests.framework */; };
 		AC702F5A24B05344004F85E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC702F5924B05344004F85E2 /* ContentView.swift */; };
@@ -63,6 +64,7 @@
 		2C72ABE924B0518400A8AC15 /* IDData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IDData.swift; sourceTree = "<group>"; };
 		2C72ABEB24B0519600A8AC15 /* DataFire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataFire.swift; sourceTree = "<group>"; };
 		2C72ABED24B051C000A8AC15 /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		2C72ABEF24B055D700A8AC15 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3330FD27B03203576099BD57 /* Pods_FTCAppV3Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FTCAppV3Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D8143B20F6B4D5AD26DFBDC /* Pods_FTCAppV3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FTCAppV3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E1036DDF173732DC49E0CF0 /* Pods_FTCAppV3_FTCAppV3UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FTCAppV3_FTCAppV3UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -140,6 +142,7 @@
 				2C72ABB724B04BC100A8AC15 /* SceneDelegate.swift */,
 				2C72ABE524B0510500A8AC15 /* MessagePage.swift */,
 				2C72ABE724B0515300A8AC15 /* ListMessage.swift */,
+				2C72ABEF24B055D700A8AC15 /* GoogleService-Info.plist */,
 				2C72ABEB24B0519600A8AC15 /* DataFire.swift */,
 				2C72ABED24B051C000A8AC15 /* ImagePicker.swift */,
 				2C72ABE924B0518400A8AC15 /* IDData.swift */,
@@ -303,6 +306,7 @@
 				2C72ABC224B04BC300A8AC15 /* LaunchScreen.storyboard in Resources */,
 				2C72ABBF24B04BC300A8AC15 /* Preview Assets.xcassets in Resources */,
 				2C72ABBC24B04BC300A8AC15 /* Assets.xcassets in Resources */,
+				2C72ABF024B055D700A8AC15 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
